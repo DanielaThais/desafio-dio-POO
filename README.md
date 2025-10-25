@@ -4,6 +4,8 @@
 
 💎 O objetivo principal é colocar em prática umas das principais ferramentas da OO: <strong>ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO,</strong> através de um projeto Java. </p>
 
+----
+
 <h2>🛑 Pré-Requisitos</h2>
 
 <p>
@@ -41,10 +43,13 @@ Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando ca
 
 <p>Capacidade de um objeto poder ser referenciado de várias formas. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele. A capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica é chamada de polimorfismo.</p>
 <br>
+
+----
+
 <h2> 📝 Conceitos Fundamentais POO </h2>
-<p>
+<br>
 <h3>📌 DOMÍNIO:</h3> 
-Domínio da aplicação, também conhecida como camada de negócio ou de objetos de negócio, é aquela onde estão localizadas as classes que fazem parte do domínio do problema, ou seja, classes correspondentes a objetos que fazem parte da descrição do problema.
+<p>  Domínio da aplicação, também conhecida como camada de negócio ou de objetos de negócio, é aquela onde estão localizadas as classes que fazem parte do domínio do problema, ou seja, classes correspondentes a objetos que fazem parte da descrição do problema.</p>
 
 <h3>📌 CLASSE: </h3>
 <p>Um elemento do código que tem a função de representar objetos do mundo real. Dentro dela é comum declararmos atributos e métodos, que representam, respectivamente, as características e comportamentos desse objeto.</p>
@@ -64,8 +69,8 @@ Objeto em ciência da computação, é uma referência a um local da memória qu
 
 <h3>📌 INSTÂNCIA: </h3>
 <p> Uma instância de uma classe é um novo objeto criado dessa classe, com o operador new. Instanciar uma classe é criar um novo objeto do mesmo tipo dessa classe. Uma classe somente poderá ser utilizada após ser instanciada.</p>
-    
-<br>
+
+----
 
 <h2> 💻️ Como usar o projeto? </h2>
 
