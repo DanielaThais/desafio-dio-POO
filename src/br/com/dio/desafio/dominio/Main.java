@@ -25,10 +25,34 @@ public class Main {
         mentoria1.setDescricao("Abordar conceitos da Linguagem de Programação JavaScript.");
         mentoria1.setData(LocalDate.now());
 
-        System.out.println(curso);
-        System.out.println(curso1);
-        System.out.println(mentoria);
-        System.out.println(mentoria1);
+        Bootcamp bootcamp = new Bootcamp();
+        bootcamp.setNome("Bootcamp Java Developer");
+        bootcamp.setDescricao("Trilha completa de cursos da Linguagem de Programação Java.");
+        bootcamp.getConteudos().add(curso);
+        bootcamp.getConteudos().add(curso1);
+        bootcamp.getConteudos().add(mentoria);
+        bootcamp.getConteudos().add(mentoria1);
 
+        Dev dev = new Dev();
+        dev.setNome("Daniela Thais");
+        dev.inscreverBootcamp(bootcamp);
+        System.out.println("\nConteúdos Inscritos de " + dev.getNome() + ": " + dev.getConteudosInscritos());
+        dev.progredir();
+        dev.progredir();
+        System.out.println("---------------------------------------------------------");
+        System.out.println("\nConteúdos Inscritos de " + dev.getNome() + ": " + dev.getConteudosInscritos());
+        System.out.println("\nConteúdos Concluídos de " + dev.getNome() + ": " + dev.getConteudosConcluidos());
+        System.out.println("XP: " + dev.calcularTotalXp() + "\n");
+
+        System.out.println(">==> >=> >==> >=> >==> >=> >==> >=> >==> >=> >==> >=> >==> >=> >==>");
+        Dev dev1 = new Dev();
+        dev1.setNome("João");
+        dev1.inscreverBootcamp(bootcamp);
+        System.out.println("\nConteúdos Inscritos de " + dev1.getNome() + ": " + dev1.getConteudosInscritos());
+        dev1.progredir();
+        System.out.println("---------------------------------------------------------");
+        System.out.println("\nConteúdos Inscritos de " + dev1.getNome() + ": " + dev1.getConteudosInscritos());
+        System.out.println("\nConteúdos Concluídos de " + dev1.getNome() + ": " + dev1.getConteudosConcluidos());
+        System.out.println("XP: " + dev1.calcularTotalXp());
     }
 }
